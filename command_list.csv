@@ -1,0 +1,46 @@
+    1  git config --get user.name
+    2  git config --get user.name AndriiSamborskiy
+    3  git clone https://github.com/AndriiSamborskiy/HW_10.git
+    4  ls -l
+    5  ls -l
+    6  cd HW_10
+    7  ls -l
+    8  ls -la
+    9  touch text_ignore.txt
+   10  ls -l
+   11  nano .gitignore
+   12  nano .gitignore
+   13  git status
+   14  git add.
+   15  nano .gitignore
+   16  git status
+   17  git add .
+   18  git commit -m "chahget gitignore"
+   19  git status
+   20  touch main_test.txt
+   21  ls -l
+   22  git add .
+   23  git commit -m "chahget main_test.txt"
+   24  git checkout -b develop
+   25  git status
+   26  touch develop_test.txt
+   27  git add .
+   28  git commit -m "chahget develop_test.txt"
+   29  nano develop_test.txt
+   30  git status
+   31  git add .
+   32  git commit -m "chahget develop_test.txt"
+   33  git status
+   34  checkout main
+   35  git log
+   36  git checkout main
+   37  git push
+   38  ls -l
+   39  cd develop
+   40  git checkout -b develop
+   41  git push origin develop
+   42  cd main
+   43  git checkout main
+   44  git merge develop
+   45  git log
+   46  history > command_list.csv
